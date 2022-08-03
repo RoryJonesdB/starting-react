@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "@emotion/styled";
-import { Button, CssBaseline } from "@material-ui/core";
+import { Button, CssBaseline } from "@mui/material";
 
 import "./App.css";
 
