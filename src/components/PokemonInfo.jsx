@@ -5,10 +5,10 @@ import PokemonType from "../pokemonType";
 
 
 const PokemonInfo = () => {
-    const { selectedPokemon,} = useContext(PokemonContext)
+    const { state:{selectedPokemon},} = useContext(PokemonContext)
     return selectedPokemon ?(
         <div>
-            <h2>{selectedPokemon.english}</h2>
+            <h2>{selectedPokemon.name.english}</h2>
             <table>
             <tbody>
                 {Object.keys(selectedPokemon.base).map((key) => (
